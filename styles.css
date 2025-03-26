@@ -180,3 +180,42 @@ nav {
 .header__content h1 span {
     font-size: 3rem;
 }
+
+.banner__container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 200px;
+}
+
+.banner__card {
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.banner__card:nth-child(1) {
+    background-image: url("assets/banner-1.png");
+}
+
+.banner__card:nth-child(2) {
+    background-image: url("assets/banner-2.png");
+}
+
+.banner__card:nth-child(3) {
+    background-image: url("assets/banner-3.png");
+}
+
+.banner__card p {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.banner__card h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+}
