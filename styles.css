@@ -400,3 +400,17 @@ nav {
     color: var(--white);
     text-align: center;
 }
+
+@media (width > 540px) {
+    .banner__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner__card:nth-child(1) {
+        grid-area: 1/1/2/3;
+    }
+
+    .order__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
